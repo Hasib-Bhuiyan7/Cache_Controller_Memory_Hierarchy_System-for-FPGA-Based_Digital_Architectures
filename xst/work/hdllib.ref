@@ -1,0 +1,12 @@
+AR ila ila_a /home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/ila.vhd sub00/vhpl09 1761855118
+EN cachecontroller NULL /home/student2/ahbhuiya/Downloads/Cache/CacheController.vhd sub00/vhpl10 1761855119
+AR icon icon_a /home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/icon.vhd sub00/vhpl07 1761855116
+EN sdramcontroller NULL /home/student2/ahbhuiya/Downloads/Cache/SDRAMController.vhd sub00/vhpl02 1761855111
+EN icon NULL /home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/icon.vhd sub00/vhpl06 1761855115
+EN cpu_gen NULL /home/student2/ahbhuiya/Downloads/Cache/CPU_gen.vhd sub00/vhpl00 1761855109
+EN sram NULL /home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/SRAM.vhd sub00/vhpl04 1761855113
+AR sram sram_a /home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/SRAM.vhd sub00/vhpl05 1761855114
+AR cachecontroller behavioral /home/student2/ahbhuiya/Downloads/Cache/CacheController.vhd sub00/vhpl11 1761855120
+AR cpu_gen behavioral /home/student2/ahbhuiya/Downloads/Cache/CPU_gen.vhd sub00/vhpl01 1761855110
+AR sdramcontroller behavioral /home/student2/ahbhuiya/Downloads/Cache/SDRAMController.vhd sub00/vhpl03 1761855112
+EN ila NULL /home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/ila.vhd sub00/vhpl08 1761855117

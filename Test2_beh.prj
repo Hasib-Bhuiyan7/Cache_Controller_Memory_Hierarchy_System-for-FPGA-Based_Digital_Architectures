@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/icon.vhd"
+vhdl work "SDRAMController.vhd"
+vhdl work "ipcore_dir/SRAM.vhd"
+vhdl work "ipcore_dir/ila.vhd"
+vhdl work "CPU_gen.vhd"
+vhdl work "CacheController.vhd"
+vhdl work "Test2.vhd"

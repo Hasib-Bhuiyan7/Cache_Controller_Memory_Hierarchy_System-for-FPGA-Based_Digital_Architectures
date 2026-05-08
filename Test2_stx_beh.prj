@@ -1,0 +1,5 @@
+vhdl isim_temp "ipcore_dir/icon.vhd"
+vhdl isim_temp "SDRAMController.vhd"
+vhdl isim_temp "CPU_gen.vhd"
+vhdl isim_temp "CacheController.vhd"
+vhdl isim_temp "Test2.vhd"

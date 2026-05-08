@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="sim" num="172" delta="old" >Generating IP...
+</msg>
+
+<msg type="error" file="coreutil" num="1012" delta="new" >Command &apos;<arg fmt="%s" index="1">/CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/_ipguilauncher -cg_exc_inp ./tmp/_cg/xil_Np4qBR.in -cg_exc_out ./tmp/_cg/xil_Np4qBR.out -namelock</arg>&apos; returned a non-zero exit code &apos;<arg fmt="%x" index="2">1</arg>&apos;
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" >Failed to generate &apos;ila&apos;.  An error occurred. Please see the log for details.
+</msg>
+
+</messages>
+

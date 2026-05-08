@@ -1,0 +1,6 @@
+work	"CPU_gen.vhd"
+work	"CacheController.vhd"
+work	"SDRAMController.vhd"
+work	"ipcore_dir/SRAM.vhd"
+work	"ipcore_dir/icon.vhd"
+work	"ipcore_dir/ila.vhd"

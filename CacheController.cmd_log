@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/student2/ahbhuiya/Downloads/Cache/CacheController.xst" -ofn "/home/student2/ahbhuiya/Downloads/Cache/CacheController.syr" 
+xst -intstyle ise -ifn "/home/student2/ahbhuiya/Downloads/Cache/CacheController.xst" -ofn "/home/student2/ahbhuiya/Downloads/Cache/CacheController.syr" 
+xst -intstyle ise -ifn "/home/student2/ahbhuiya/Downloads/Cache/CacheController.xst" -ofn "/home/student2/ahbhuiya/Downloads/Cache/CacheController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CacheController.ucf -p xc3s500e-fg320-5 CacheController.ngc CacheController.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CacheController_map.ncd CacheController.ngd CacheController.pcf 
+par -w -intstyle ise -ol high -t 1 CacheController_map.ncd CacheController.ncd CacheController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CacheController.twx CacheController.ncd -o CacheController.twr CacheController.pcf -ucf CacheController.ucf 
+bitgen -intstyle ise -f CacheController.ut CacheController.ncd 
+netgen -intstyle ise -ar Structure -tm CacheController -w -dir netgen/synthesis -ofmt vhdl -sim CacheController.ngc CacheController_synthesis.vhd 
+bitgen -intstyle ise -f CacheController.ut CacheController.ncd 

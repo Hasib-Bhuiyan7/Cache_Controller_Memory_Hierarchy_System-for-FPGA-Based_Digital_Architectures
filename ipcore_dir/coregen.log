@@ -1,0 +1,14 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Customizing IP...
+Release 13.4 - Xilinx CORE Generator IP GUI Launcher O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+ERROR:coreutil:1012 - Command
+   '/CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/_ipguilauncher -cg_exc_inp
+   ./tmp/_cg/xil_Np4qBR.in -cg_exc_out ./tmp/_cg/xil_Np4qBR.out -namelock'
+   returned a non-zero exit code '1'
+An Error occurred during Customization.
+ERROR:sim - Failed to generate 'ila'.  An error occurred. Please see the log for
+   details.
+Wrote CGP file for project 'ila'.

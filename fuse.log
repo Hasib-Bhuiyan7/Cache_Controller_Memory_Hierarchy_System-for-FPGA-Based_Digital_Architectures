@@ -1,0 +1,41 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/student2/ahbhuiya/Downloads/Cache/Test2_isim_beh.exe -prj /home/student2/ahbhuiya/Downloads/Cache/Test2_beh.prj work.Test2 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/icon.vhd" into library work
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/SDRAMController.vhd" into library work
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/SRAM.vhd" into library work
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/ipcore_dir/ila.vhd" into library work
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/CPU_gen.vhd" into library work
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/CacheController.vhd" into library work
+Parsing VHDL file "/home/student2/ahbhuiya/Downloads/Cache/Test2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 122096 KB
+Fuse CPU Usage: 800 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity CPU_gen [cpu_gen_default]
+Compiling architecture behavioral of entity SDRAMController [sdramcontroller_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_2_output_stage [\BLK_MEM_GEN_V6_2_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_2_softecc_output_reg_stage [\BLK_MEM_GEN_V6_2_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_2_mem_module [\BLK_MEM_GEN_V6_2_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_2 [\BLK_MEM_GEN_V6_2("blk_mem_gen_v...]
+Compiling architecture sram_a of entity SRAM [sram_default]
+Compiling architecture icon_a of entity icon [icon_default]
+Compiling architecture ila_a of entity ila [ila_default]
+Compiling architecture behavioral of entity CacheController [cachecontroller_default]
+Compiling architecture behavior of entity test2
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 28 VHDL Units
+Built simulation executable /home/student2/ahbhuiya/Downloads/Cache/Test2_isim_beh.exe
+Fuse Memory Usage: 1226680 KB
+Fuse CPU Usage: 960 ms
+GCC CPU Usage: 3070 ms
